@@ -1,0 +1,11 @@
+/* TextViewer.css */
+
+.text-viewer {
+    padding: 16px;
+    border: 1px solid #ccc;
+    height: 550px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+}
+  

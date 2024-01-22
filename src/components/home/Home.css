@@ -1,0 +1,24 @@
+/* Home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.left-panel,
+.right-panel {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-panel {
+  background-color: #f0f0f0;
+}
+
+.right-panel {
+  background-color: #e0e0e0;
+}

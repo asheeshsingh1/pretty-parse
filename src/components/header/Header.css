@@ -1,0 +1,52 @@
+/* Header.css */
+
+header {
+  background-color: #6d49cb;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-container {
+  width: 150px; /* Set the desired width for the container */
+  height: 70px; /* Set the desired height for the container */
+  overflow: hidden; /* Hide the overflowing parts of the image */
+}
+
+img {
+  width: 210px; /* Make the image fill the container */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.right-align {
+  margin-left: auto;
+}
